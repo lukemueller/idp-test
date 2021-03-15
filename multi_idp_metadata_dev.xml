@@ -1,0 +1,74 @@
+<md:EntitiesDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata">
+    <md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"
+                         entityID="http://www.okta.com/exkw1d53z55n7aXTW0h7">
+        <md:IDPSSODescriptor WantAuthnRequestsSigned="false"
+                             protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+            <md:KeyDescriptor use="signing">
+                <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                    <ds:X509Data>
+                        <ds:X509Certificate>MIIDnjCCAoagAwIBAgIGAWYhdRsQMA0GCSqGSIb3DQEBCwUAMIGPMQswCQYDVQQGEwJVUzETMBEG
+                            A1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzENMAsGA1UECgwET2t0YTEU
+                            MBIGA1UECwwLU1NPUHJvdmlkZXIxEDAOBgNVBAMMB2hlcnR6cWExHDAaBgkqhkiG9w0BCQEWDWlu
+                            Zm9Ab2t0YS5jb20wHhcNMTgwOTI4MTgzMjM0WhcNMjgwOTI4MTgzMzM0WjCBjzELMAkGA1UEBhMC
+                            VVMxEzARBgNVBAgMCkNhbGlmb3JuaWExFjAUBgNVBAcMDVNhbiBGcmFuY2lzY28xDTALBgNVBAoM
+                            BE9rdGExFDASBgNVBAsMC1NTT1Byb3ZpZGVyMRAwDgYDVQQDDAdoZXJ0enFhMRwwGgYJKoZIhvcN
+                            AQkBFg1pbmZvQG9rdGEuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkqpk0J+T
+                            PMuZIfhQ7/PA5X8uzXA+B7n8QOjGyRtX2kvnC2j17OZZl2QWpu4TOtCR5oWb6/D3L1lZmgLTGunb
+                            v8jHMq/iJJrmCKEHix8O2j5KGdUN+C1JDyZ7gCRBVI8IYZ0JEvCDb9nGcW9/r0lc/zuSs/grh7jg
+                            VwV+p7NSpVgkxoQype4sYy9V7SkMKb3LXoroSXDFsHzqDX8EC86JxWY83xZKDpSg9KGeK5tWTr4U
+                            9+XNSTSVoeYFJCSJFba9yiOLF/bL2Xz2IXEnOL/tIXEKQ9s0XFJEg3dGHSC13a20SuYkIa6Me0yV
+                            XjmNUFUoAjgOjTzf5HZVOM/vChUg/wIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQBW64WQjiESxrHa
+                            MS36OGyREdN9P6FKdafRpI+3vC3PRJ1HHbfs0yo2ZdISb0txs2tew76utgx452WKaf8V3l80KPxO
+                            5MSyAtX/xWQBz4kdGMQeLzS+3xd/H/4ULGziXqgXEvaoplhe2+AYBYF2Jp7VDANVodDIw0YBlz+l
+                            TAgAQFT89ksYCdyM5NNi6nco7/Tos26HEutcArAZI6PBazKL0z8BAV/JfJ0BjyEnYnA2Kaw8o5Pd
+                            GcpQ5s9isNqGca4LmilmqO0hiaxC3lmUhH4f72os0NmTAoR3ahGhEYQ1ZjL8Rp8rKZ0c8oU0zD2o
+                            +aiE7bnu5s2e9uI6vChm1/8N
+                        </ds:X509Certificate>
+                    </ds:X509Data>
+                </ds:KeyInfo>
+            </md:KeyDescriptor>
+            <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
+            <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</md:NameIDFormat>
+            <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+                                    Location="https://hertzqa.oktapreview.com/app/hertzqa_tncpartnerportaldev_1/exkw1d53z55n7aXTW0h7/sso/saml"/>
+            <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
+                                    Location="https://hertzqa.oktapreview.com/app/hertzqa_tncpartnerportaldev_1/exkw1d53z55n7aXTW0h7/sso/saml"/>
+        </md:IDPSSODescriptor>
+    </md:EntityDescriptor>
+    <md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"
+                         entityID="http://www.okta.com/exkh9ihvuw2wititq1t7">
+        <md:IDPSSODescriptor WantAuthnRequestsSigned="false"
+                             protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+            <md:KeyDescriptor use="signing">
+                <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                    <ds:X509Data>
+                        <ds:X509Certificate>MIIDmDCCAoCgAwIBAgIGAV2mkBN4MA0GCSqGSIb3DQEBCwUAMIGMMQswCQYDVQQGEwJVUzETMBEG
+                            A1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzENMAsGA1UECgwET2t0YTEU
+                            MBIGA1UECwwLU1NPUHJvdmlkZXIxDTALBgNVBAMMBGx5ZnQxHDAaBgkqhkiG9w0BCQEWDWluZm9A
+                            b2t0YS5jb20wHhcNMTcwODAzMDUyNjI2WhcNMjcwODAzMDUyNzI2WjCBjDELMAkGA1UEBhMCVVMx
+                            EzARBgNVBAgMCkNhbGlmb3JuaWExFjAUBgNVBAcMDVNhbiBGcmFuY2lzY28xDTALBgNVBAoMBE9r
+                            dGExFDASBgNVBAsMC1NTT1Byb3ZpZGVyMQ0wCwYDVQQDDARseWZ0MRwwGgYJKoZIhvcNAQkBFg1p
+                            bmZvQG9rdGEuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAl3R6xpXWiT/9CybU
+                            kzMSJs4KhCOTkw2jKnpvdTV7a/GP2tvkWixJu3PfpY96EvlbGGzfT2RkFQBn/fNYkrBY+7wIMkwP
+                            no3d5zi6/EUwmxIUaTzNRzSS7pCSQBdv48dQKTI67DRKQf85Ld3YUQgNheBNYC5fdfGkoP2legNc
+                            QHdgxoZCBP6BforFQZ6N91tGkFWAlGz5J4zrbGkCDjjN7Y3ShcCSFoNc4/TBEGviVqUGVG9cv4lo
+                            9pEnlDbScjvwNplrqh0XwL7hk/pHDpofv1RaUR4RBJd9DFiN/0FgTzfs2qVaIgMSCae9ABw5Xb/E
+                            CPIPXarzdNqnDHuSb2IbewIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQB0uqb+pY0rlaeLR4sTyQbE
+                            jgVrCIBQ9hMC7L9Ge6vMhIT3Vc6AhqhkKDY+gzzpUntmSADkXyODghiIKJ1JfNYe74iW9whct8ot
+                            /F1yo+ZYl5xY8VSS7GQsZ0o6SZf1XeJVwwulvwbRExND8pDKAvbYYIEiux8H6rSH+19WOrlZAz0Q
+                            KZXiIryjRIoRVoUGGxlJ3s+/mkd7NS9AVvpJT9gnFcID5tE9EL7R9RKZoiJluUAyuxQAvMyo3P7j
+                            q+NZu2Bo6856FhuzJLwNT5XEG7xN+lF2RBZC4Scugb9OB3/xoe7c16xWIH+JCn0ZIMsDgFNjUP75
+                            l7myQnF0+w9PM3Ow
+                        </ds:X509Certificate>
+                    </ds:X509Data>
+                </ds:KeyInfo>
+            </md:KeyDescriptor>
+            <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
+            <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</md:NameIDFormat>
+            <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+                                    Location="https://lyft.okta.com/app/lyft_hertz_1/exkh9ihvuw2wititq1t7/sso/saml"/>
+            <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
+                                    Location="https://lyft.okta.com/app/lyft_hertz_1/exkh9ihvuw2wititq1t7/sso/saml"/>
+        </md:IDPSSODescriptor>
+    </md:EntityDescriptor>
+</md:EntitiesDescriptor>
